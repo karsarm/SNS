@@ -1,0 +1,714 @@
+/*----------スマートフォン用CSS：1023px以下はこちらのCSSに切り替わります。-------------------------*/
+@media screen and (max-width:1023px) {
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+	body {
+	line-height: 1;
+	
+	}
+	ol, ul {
+	list-style: none;
+	}
+	blockquote, q {
+	quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	content: '';
+	content: none;
+	}
+	table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+	
+	.glcenter a:visited {
+
+		color:white;
+		text-decoration:none;
+
+	}
+	.glcenter a:link {
+
+		color:white;
+		text-decoration:none;
+	}
+	.glcenter a {
+		color:white;
+		text-decoration:none;
+	}
+
+	.abc{
+		display:flex;
+		font-size:6.5vw;
+		color:white;
+		background-color:black;
+		width:100%;
+		height:150px;
+		align-items:center;
+		position:fixed;
+		z-index:100;
+	}	
+
+	.head{
+	}
+
+	
+	.center{
+		display:flex;
+		justify-content:center;
+	}
+	
+	.tate{
+		display:flex;
+		flex-direction:column;
+		margin:10px 0;
+	}
+	
+	.waku {
+		width:100%;
+	}
+	
+	.size {
+		font-size:4vw;
+	}
+	.size2{
+		font-size:3vw;
+		background-color:black;
+		color:white;
+	}
+	
+	
+	.yoko{
+		display:flex;
+		justify-content:space-between;
+	}
+	.yoko div{
+		width:50%;
+		border:solid 1px black;
+	}
+	
+	.ce{
+		display:flex;
+		align-items:center;
+	}
+	
+	.global{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	width: 100%;
+
+	}
+
+	.glcenter{
+		list-style: none;
+		width: 84%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 300%;
+		border-top:1px solid white;
+		border-bottom:1px solid white;
+		height: 18%;
+	}
+	
+	.glcenter a{
+		    display: flex;
+    	width: 100%;
+    	height: 100%;
+    	justify-content: center;
+    	align-items: center;
+	}
+	
+	.testflex{
+		display:flex;
+		align-items:center;
+		font-size:300%;
+    	flex-direction:column;
+	}
+	
+	.wid{
+		width:70%;
+		margin-right:16px;
+	}
+	
+	.bgsize{
+		width:92%;
+		position:relative;
+	}
+	
+	.bg-slider {
+		width: 100%;
+		height: 90vh;
+		background-position:center center;
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.bg-slider__title{
+		color: #fff;
+		font-size: 48px;
+		line-height: 1.5;
+		font-weight: bold;
+		text-align:center;
+		text-shadow: 1px 1px 1px #000;
+	}
+	
+	.bgposi{
+		width:100%;
+		background-color:rgba(255, 255, 255, 0.8);
+		height: 24%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		position:relative;
+		top:200px;
+		letter-spacing: 1px;
+		font-size: 112%;
+		font-weight:700;
+		padding:0 3%;
+	}
+
+	.head{
+		width:100%;
+		height:150px;
+	}
+	
+	.head:after{
+		clear:both;
+	}
+	
+	.posi{
+    	width: 100%;
+    	display: flex;
+    	justify-content: center;
+    	flex-direction: column;
+    	align-items: center;
+    	margin: 32px 0;
+	}
+	
+	.posi:after{
+		clear:both;
+	}
+	
+	.fsize{
+		font-size:8vh;
+	}
+	
+	.fsize1{
+		font-size:3vh;
+	}
+	
+	.spnone{
+		display:none;
+	}
+	
+	
+	.wtug{
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	flex-direction:column;
+    	font-size: 300%;
+    	height: 100%;
+	}
+	
+	.ma{
+		margin:30px;
+	}
+	
+	.logina{
+		color:black;
+		text-decoration:none;
+	}
+	
+	.logina a:visited {
+
+		color:black;
+		text-decoration:none;
+
+	}
+	.logina a:link {
+
+		color:black;
+		text-decoration:none;
+	}
+	.logina a {
+		color:black;
+		text-decoration:none;
+	}
+	
+	.mucolumn{
+		display:flex;
+		flex-direction:column;
+		-webkit-text-size-adjust:100%;
+		font-size:3.5vw;
+		background-color: white;
+    	width: 96%;
+    	border-radius: 20px;
+    	margin: 10px 0;
+	}
+	
+	.muside{
+		display:flex;
+	}
+	
+	.stname{
+		font-size:120%;
+		font-weight:900;
+	}
+	
+	.ndname{
+		font-size:120%;
+		font-weight:900;
+	}
+	
+	.the{
+		font-size:120%;
+		font-weight:900;
+	}
+	.idhyouji{
+		font-size:100%;
+		color:grey;
+	}
+	.mutter{
+		font-size:120%;
+	}
+	
+	.maincenter{
+		background-color: #eee;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	padding-top:10px;
+	}
+	
+	.mudate{
+		font-size:100%;
+		color:grey;
+	}
+	
+	.mutterspace{
+		padding: 12px 4px 40px;
+		border-bottom: 3px solid #EEE;
+		display:flex;
+                justify-content: space-around;
+	}
+	
+	.prof{
+		font-size: 64%;
+    	margin-left: 10px;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+	}
+	
+	.foot{
+
+	}
+	
+	.fcolumn{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		height:52px;
+	}
+	
+	.column{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+		margin: 24px 12px;
+		border-radius: 20px;
+		background-color:#EEE;
+		padding: 24px 0;
+	}
+	
+	.logflex{
+		display:flex;
+		justify-content:center;
+		width:100%;
+		margin:20px 0;
+	}
+	
+	.logsize{
+		font-size:40px;
+	}
+	
+	.fdcolumn{
+		display:flex;
+		flex-direction:column;
+	}
+	
+	.flex{
+		display:flex;
+		padding-left:8px;
+		align-items:center;
+	}
+	
+	.icradi{
+		display:flex;
+		border-radius:50px;
+	}
+	
+	.muttericon{
+	        display: flex;
+    	        align-items: center;
+    	        justify-content: center;
+    	        margin:8px;
+	}
+	
+	.iddate{
+		margin: 0px 0px 8px 0;
+	}
+ 
+        .trash{
+                display:flex;
+                align-items:center;
+                justify-content: center;
+        }
+
+	.wtug a { text-decoration: none;color:#daf6ff;}
+	.wtug a:hover { text-decoration: none;color:#daf6ff;}
+        
+        .file {
+            display: inline-block;
+            overflow: hidden;
+            position: relative;
+            padding: 48px 140px;
+            border: 2px solid #000000;
+            border-radius:70px;
+            background: #FFFFFF;
+            color:#000;
+            font-size: 30px;
+            margin: 0 0 20px;
+        }
+        .file input[type="file"] {
+            opacity: 0;
+            filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 0;
+            font-size: 100px;
+            cursor: pointer;
+        }
+        
+        .upload{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .nrcolumn {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 24px 12px;
+            border-radius: 20px;
+            background-color: #EEE;
+            padding: 24px 0;
+        }
+}
+
+/*------------------PC用CSS：1024px以上はこちらのCSSに切り替わります------------------------------------*/
+@media screen and (min-width:1024px) {
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+	body {
+	line-height: 1;
+	height:100vh;
+	}
+	ol, ul {
+	list-style: none;
+	}
+	blockquote, q {
+	quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	content: '';
+	content: none;
+	}
+	table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+	
+	.abc{
+		display:flex;
+		font-size:5rem;
+		justify-content:center;
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	.abc div{
+	}
+	
+	.center{
+		display:flex;
+		justify-content:center;
+	}
+	
+	.tate{
+		display:flex;
+		flex-direction:column;
+		margin:10px 0;
+	}
+	
+	.waku {
+		width:100%;
+	}
+	
+	.size {
+		font-size:4vw;
+	}
+	.size2{
+		font-size:3vw;
+		background-color:black;
+		color:white;
+	}
+	
+	
+	.yoko{
+		display:flex;
+		justify-content:space-between;
+	}
+	.yoko div{
+		width:50%;
+		border:solid 1px black;
+	}
+	
+	.ce{
+		display:flex;
+		align-items:center;
+	}
+	
+	.global{
+		display:flex;
+		height:70px;
+	}
+	
+	.glcenter{
+		background-color:black;
+		color:white;
+		border:1px solid white;
+		font-size:3.5vw;
+		width:33.3%;
+		height:100%;
+	}
+	
+	.global .glcenter a{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		height:100%;
+		text-decoration:none;
+		color:white;
+	}
+	.global .glcenter a:hover{
+		background-color:grey;
+	}
+	
+	.testflex{
+		display:flex;
+		align-items:center;
+		font-size:300%;
+		flex-direction:column;
+	}
+	
+	.wid{
+		width:40%;
+	}
+	
+	.none{
+		display:none;
+	}
+	
+	.bg-slider {
+		width: 100%;
+		height: 100vh;
+		background-position:center center;
+		background-size:cover;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.bg-slider__title{
+		color: #fff;
+		font-size: 48px;
+		line-height: 1.5;
+		font-weight: bold;
+		text-align:center;
+		text-shadow: 1px 1px 1px #000;
+	}
+		
+	.bgsize{
+		width:100%;
+	}
+	
+	.bgposi{
+		width:100%;
+		background-color:rgba(255, 255, 255, 0.9);
+		height: 20%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		position: relative;
+    	top: 176px;
+    	padding:10px;
+	}
+	
+	.mucolumn{
+		display:flex;
+		flex-direction:column;
+	}
+	
+	.muside{
+		display:flex;
+	}
+	
+	.wtug{
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	flex-direction:column;
+    	font-size: 300%;
+    	height: 100%;
+	}
+	
+	.stname{
+		font-size:200%;
+	}
+	
+	.ndname{
+		font-size:200%;
+	}
+	
+	.the{
+		font-size:200%;
+	}
+	
+	.idhyouji{
+		font-size:150%;
+		color:grey;
+	}
+	
+	.mutter{
+		font-size:200%;
+	}
+	
+	.head{
+		width: 100%;
+    	display: flex;
+    	justify-content: center;
+    	flex-direction: column;
+    	align-items: center;
+	}
+	
+	.head:after{
+		clear:both;
+	}
+	
+	.pcnone{
+		display:none;
+	}
+	
+	.foot{
+
+	}
+	
+	.drawer-nav{
+		width:100%;
+	}
+	
+	.posi{
+		width: 100%;
+    	display: flex;
+    	justify-content: center;
+    	flex-direction: column;
+    	align-items: center;
+	}
+	.posi:after{
+		clear:both;
+	}
+	
+	.fsize{
+		font-size:6vw;
+	}
+	
+	.fsize1{
+		font-size:2vw;
+	}
+	
+	.pcprof{
+		font-size:20px;
+		position: absolute;
+    	top: 0;
+    	left: 0;
+	}
+	
+	/*�������N�̉����͂Ȃ��A�}�E�X�I���ŉ�������*/
+	.wtug a { text-decoration: none;color:black;}
+	.wtug a:hover { text-decoration: none;color:grey;}
+	
+}
