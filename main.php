@@ -39,11 +39,8 @@
 		$muid = $pdo -> prepare("select UserID,1stName,2ndName,Icon,MutterUserID,MutterLog,MutterDate from user,mutter where UserID = MutterUserID ORDER BY MutterDate DESC");
 		$muid -> execute();
                 
-
-		
 		$dtime = $pdo -> prepare("select DATE_FORMAT(MutterDate,'%Y/%m/%d %H:%i:%S') as MutterDate from mutter  ORDER BY MutterDate DESC");
 		$dtime -> execute();
-
 
 		//個人の限界までつぶやける処理（1人につき60件まで、それ以上は古い順に消されていきます）
 		$uid2 = $_SESSION["USERID"]; 
@@ -66,10 +63,7 @@
 			$mw1 -> execute();
 			
 			header('Location:main.php');
-		} else {
-	        }
-                
-                
+		}
                 $pdo = null;
                  
 	} catch (PDOException $e) {

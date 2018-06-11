@@ -38,7 +38,11 @@ $(function(){
 
 <div class="wtug">
 	<a class="wrapper bluelight" href="index2.php"><p class="cap">Enter</p></a>
-	<p class="wrapper caption">Welcome to underground</p>
+        <p class="wrapper caption">
+            PC用のCSSはほとんど着手出来ておりませんので、<br>
+            スマートフォン解像度でご確認ください。<br>
+            （1023px以下）
+        </p>
 </div>
 
 

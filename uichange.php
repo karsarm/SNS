@@ -27,6 +27,12 @@
 	    $stoken -> bindParam(':mutteruid',$userid);
 	    $stoken -> execute();
             
+            //お問い合わせユーザIDも変更させる。
+            $stoken = $pdo -> prepare("UPDATE inquiry SET InqID = :in WHERE InqID = :inquid");
+            $stoken -> bindParam(':in',$_POST['userid_change']);
+            $stoken -> bindParam(':inquid',$userid);
+            $stoken -> execute();
+            
         }
         //ディレクトリが無ければ作られて、パーミッションも変更される
 	mkdir($directory_path1, 0776);

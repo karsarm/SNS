@@ -74,10 +74,10 @@
 	<div class="column">
 		<h1 class="logsize">ログイン画面ですの</h1>
 		<div class="logflex">
-    		<input type="text" class="form-control" name="user_id" placeholder="登録したユーザーIDを入力やで～" pattern="^[0-9A-Za-z]+$" required style="width:80%;height:80px;font-size:150%;"/>
+    		<input type="text" class="form-control" name="user_id" placeholder="登録したユーザーIDを入力～" pattern="^[0-9A-Za-z]+$" required style="width:80%;height:80px;font-size:150%;"/>
 		</div>
 		<div class="logflex">
-			<input type="password" class="form-control" name="password" placeholder="登録したパスワードを入れるのだ" pattern="^[0-9A-Za-z]+$" required style="width:80%;height:80px;font-size:150%;"/>
+			<input type="password" class="form-control" name="password" placeholder="登録したパスワードを入れる" pattern="^[0-9A-Za-z]+$" required style="width:80%;height:80px;font-size:150%;"/>
 		</div>
 		<button type="submit" name="login" style="height:120px; width:80%; font-size:48px; background-color:#CCC; margin:16px 0px">ログイン</button>
 	</div>
